@@ -46,6 +46,16 @@ Simply type:
 ```bash
 wsl
 ```
+# 8️⃣ Uninstalling WSL
+If you ever want to remove WSL completely:
+```bash
+wsl --unregister <DistroName>
+```
+Example:
+```bash
+wsl --unregister Ubuntu
+```
+
 
 # Common Use Cases for WSL
 ## 💻 Web Development – Run Linux-based servers, databases, and tools.
